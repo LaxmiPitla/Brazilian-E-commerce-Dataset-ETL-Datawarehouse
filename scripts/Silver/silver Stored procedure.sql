@@ -1,3 +1,11 @@
+==================================================================================================================
+	/*Inserting cleaned and transformed data from bronze layer to silver layer 
+Script Purpose: Truncating the silver tables then inserting the data , Loading data into silver stored procedure
+	It includes time taken to load each table and complete SP 
+
+Stored Procedure can be executed with : EXEC silver.load_silver
+*/
+===================================================================================================================
 --EXEC silver.load_silver;
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
