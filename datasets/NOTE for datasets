@@ -1,0 +1,6 @@
+
+
+All the data files i used in this ETL Datawarehouse building, are uploaded Except one geolocation dataset file. 
+I did not upload into GITHUB due to File size is large more than 25MB, 
+
+You can access same datasets from https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?utm_source=chatgpt.com&select=olist_geolocation_dataset.csv
