@@ -1,5 +1,5 @@
-==========================================================================================================
-/* Loading data into bronze layer tables from CSV files, All the tables loading is same Except one 
+/*==========================================================================================================
+Loading data into bronze layer tables from CSV files, All the tables loading is same Except one 
 
 NOTE: This particular table data loading is different from others "bronze.olist_order_reviews_data" 
 because of large data, and datatypes... First Data loaded from CSV file to #review_staging data (a temporary table) 
@@ -9,7 +9,7 @@ NOTE: check the datatypes of above mentioned table, then use data.. If you can a
 table prior to creation of tables 
 it is also good. 
 ========================================================================================================
-
+*/
 --EXEC bronze.load_bronze
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
